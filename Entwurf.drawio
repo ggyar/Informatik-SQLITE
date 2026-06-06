@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36">
   <diagram name="Seite-1" id="zRFhC1JhQhvgA2iYbmPQ">
-    <mxGraphModel dx="589" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1356" dy="885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -117,11 +117,26 @@
             <mxPoint x="24" y="-65" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9d2SOzoO8xg9qqlNjvsp-8" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Produktanzahl: Integer" vertex="1">
-          <mxGeometry height="30" width="140" x="580" y="500" as="geometry" />
+        <mxCell id="hmuFkYNM-rkcYEKJGIrZ-2" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="290" />
+            </Array>
+            <mxPoint x="460" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Is3GVWOtyZzmBliWF83r-3" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Bestand: Integer" vertex="1">
-          <mxGeometry height="30" width="140" x="414" y="410" as="geometry" />
+        <mxCell id="hmuFkYNM-rkcYEKJGIrZ-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;Bestand: Integer&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="106" x="340" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="hmuFkYNM-rkcYEKJGIrZ-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;Produktanzahl: Integer&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="344" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="hmuFkYNM-rkcYEKJGIrZ-5" edge="1" parent="1" source="hmuFkYNM-rkcYEKJGIrZ-4" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="510" as="sourcePoint" />
+            <mxPoint x="580" y="500" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
